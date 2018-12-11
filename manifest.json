@@ -1,0 +1,14 @@
+{
+	"info" : {
+		"name" : "Ho ho ho",
+		"namespace" : "hohoho",
+		"version" : 3,
+		"steam_file_id" : "1588527742"
+	},
+	"default_locale" : "en",
+	"aliases" : {},
+	"mixintos" : {},
+	"overrides" : {},
+	"components" : {},
+	"controllers" : {}
+}
