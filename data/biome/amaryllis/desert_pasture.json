@@ -1,0 +1,16 @@
+{
+   "components": {
+      "destination": {
+         "adjacency_flags": ["center"]
+      },
+      "stonehearth:shepherd_pasture": {
+         "check_for_strays_interval": "6h",
+         "default_type": "stonehearth:sheep",
+         "pasture_data": {
+            "stonehearth:poyo": {
+               "icon": "/stonehearth/data/biome/desert/sandy_poyo/sandy_poyo.png"
+            }
+         }
+      }
+   }
+}

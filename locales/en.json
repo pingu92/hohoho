@@ -1,0 +1,37 @@
+{
+	"data": {
+		"biome": {
+
+			"amaryllis": {
+				"display_name": "Amaryllis",
+				"description": "The Homeland of Mr. Santa and his little helpers.",
+				"random_location_names": {
+					"000": "Plains of Amaryllis"
+				},
+
+				"seasons": {
+
+					"spring": {
+						"display_name": "Spring",
+						"description": "Just relax and enjoy the icecold weather."
+					},
+					"summer": {
+						"display_name": "Summer",
+						"description": "New plans and Worklines are ready for the new year."
+					},
+					"autumn": {
+						"display_name": "Autumn",
+						"description": "Last preparations and busy crafting-lines."
+					},
+					"winter": {
+						"display_name": "Winter",
+						"description": "All people come together to celebrate the most important event of the entire year."
+					}
+
+				}
+
+			}
+
+		}
+	}
+}

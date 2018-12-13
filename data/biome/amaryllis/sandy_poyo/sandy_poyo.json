@@ -1,0 +1,8 @@
+{
+   "type": "entity",
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "i18n(stonehearth:data.biome.desert.sandy_poyo.display_name)"
+      }
+   }
+}

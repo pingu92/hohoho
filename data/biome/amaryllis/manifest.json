@@ -1,0 +1,88 @@
+{
+   "info" : {
+      "name" : "desert_manifest",
+      "deferred_load": true,
+      "version" : 3
+   },
+   "aliases" : {},
+   "mixintos" :  {
+      "stonehearth:trapper:trapping_grounds": "file(desert_trapping_grounds.json)",
+      "stonehearth:poyo": "file(../../../entities/critters/poyo/poyo_sandy/poyo_sandy.json)",
+      "stonehearth:shepherd:shepherd_pasture": "file(desert_pasture.json)",
+      "stonehearth:red_fox": "file(fennec_fox)",
+      "stonehearth:red_fox_wolf": "file(../../../entities/critters/red_fox_wolf/fennec_fox_wolf/)"
+   },
+   "overrides" : {
+      "/stonehearth/entities/critters/red_fox/red_fox.qb": "file(fennec_fox/fennec_fox.qb)",
+      "/stonehearth/entities/critters/red_fox/red_fox.png": "file(fennec_fox/fennec_fox.png)",
+
+
+      "/stonehearth/entities/critters/red_fox_wolf/red_fox_wolf.qb": "file(../../../entities/critters/red_fox_wolf/fennec_fox_wolf/fennec_fox_wolf.qb)",
+      "/stonehearth/entities/critters/red_fox_wolf/red_fox_wolf.png": "file(../../../entities/critters/red_fox_wolf/fennec_fox_wolf/fennec_fox_wolf.png)",
+      "/stonehearth/entities/resources/pelt/red_fox_pelt/fur_pelt.qb": "file(../../../entities/critters/red_fox_wolf/fennec_fox_wolf/fennec_pelt/fennec_pelt.qb)",
+      "/stonehearth/entities/resources/pelt/red_fox_pelt/red_fox_pelt.png": "file(../../../entities/critters/red_fox_wolf/fennec_fox_wolf/fennec_pelt/fennec_pelt.png)",
+
+      "/stonehearth/entities/critters/poyo/poyo.qb": "file(../../../entities/critters/poyo/poyo_sandy/poyo_sandy_tan.qb)",
+      "/stonehearth/entities/critters/poyo/poyo_red.qb": "file(../../../entities/critters/poyo/poyo_sandy/poyo_sandy_red.qb)",
+      "/stonehearth/entities/critters/poyo/poyo_brown.qb": "file(../../../entities/critters/poyo/poyo_sandy/poyo_sandy_blue.qb)",
+      "/stonehearth/entities/critters/poyo/young/poyo_young.qb": "file(../../../entities/critters/poyo/poyo_sandy/young_sandy/young_sandy.qb)",
+      "/stonehearth/entities/resources/feathers/poyo_feathers/poyo_feathers.qb": "file(../../../entities/critters/poyo/poyo_sandy/feathers_sandy/feathers_sandy.qb)",
+      "/stonehearth/entities/resources/feathers/poyo_feathers/poyo_feathers.png": "file(../../../entities/critters/poyo/poyo_sandy/feathers_sandy/feathers_sandy.png)",
+
+      "/stonehearth/entities/monsters/forest/alligator/alligator.qb": "file(../../../entities/monsters/forest/alligator/alligator_bonehide/alligator_bonehide.qb)",
+      "/stonehearth/entities/monsters/forest/alligator/alligator.png": "file(../../../entities/monsters/forest/alligator/alligator_bonehide/alligator_bonehide.png)",
+      "/stonehearth/entities/resources/skin/varanus_skin/varanus_skin.qb": "file(../../../entities/resources/skin/varanus_skin/varanus_bonehide_skin/varanus_bonehide_skin.qb)",
+      "/stonehearth/entities/resources/skin/varanus_skin/varanus_skin.png": "file(../../../entities/resources/skin/varanus_skin/varanus_bonehide_skin/varanus_bonehide_skin.png)",
+
+      "/stonehearth/entities/monsters/forest/little_stone_golem/little_stone_golem.qb": "file(../../../entities/monsters/forest/little_stone_golem/stoneling_desert/stoneling_desert.qb)",
+      "/stonehearth/entities/monsters/forest/little_stone_golem/little_stone_golem_2.qb": "file(../../../entities/monsters/forest/little_stone_golem/stoneling_desert/stoneling_desert_2.qb)",
+      "/stonehearth/entities/monsters/forest/little_stone_golem/little_stone_golem_3.qb": "file(../../../entities/monsters/forest/little_stone_golem/stoneling_desert/stoneling_desert_3.qb)",
+      "/stonehearth/entities/monsters/forest/little_stone_golem/little_stone_golem.png": "file(../../../entities/monsters/forest/little_stone_golem/stoneling_desert/stoneling_desert.png)",
+      
+      "/stonehearth/entities/monsters/forest/stone_golem/stone_golem.qb": "file(../../../entities/monsters/forest/stone_golem/stone_golem_desert/stone_golem_desert.qb)",
+      "/stonehearth/entities/monsters/forest/stone_golem/stone_golem_2.qb": "file(../../../entities/monsters/forest/stone_golem/stone_golem_desert/stone_golem_desert_2.qb)",
+      "/stonehearth/entities/monsters/forest/stone_golem/stone_golem_3.qb": "file(../../../entities/monsters/forest/stone_golem/stone_golem_desert/stone_golem_desert_3.qb)",
+      "/stonehearth/entities/monsters/forest/stone_golem/stone_golem.png": "file(../../../entities/monsters/forest/stone_golem/stone_golem_desert/stone_golem_desert.png)",
+      
+      "/stonehearth/entities/monsters/forest/entling/entling.qb": "file(../../../entities/monsters/forest/entling/entling_desert/entling_desert.qb)",
+      "/stonehearth/entities/monsters/forest/entling/entling_2.qb": "file(../../../entities/monsters/forest/entling/entling_desert/entling_desert_2.qb)",
+      "/stonehearth/entities/monsters/forest/entling/entling_3.qb": "file(../../../entities/monsters/forest/entling/entling_desert/entling_desert_3.qb)",
+      "/stonehearth/entities/monsters/forest/entling/entling.png": "file(../../../entities/monsters/forest/entling/entling_desert/entling_desert.png)",
+      
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_body.qb": "file(../../../entities/monsters/goblins/goblin/goblin_desert/goblin_body_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_head_1.qb": "file(../../../entities/monsters/goblins/goblin/goblin_desert/goblin_head_1_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_head_2.qb": "file(../../../entities/monsters/goblins/goblin/goblin_desert/goblin_head_2_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_head_3.qb": "file(../../../entities/monsters/goblins/goblin/goblin_desert/goblin_head_3_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_head_4.qb": "file(../../../entities/monsters/goblins/goblin/goblin_desert/goblin_head_4_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_head_5.qb": "file(../../../entities/monsters/goblins/goblin/goblin_desert/goblin_head_5_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_armor_vest.qb": "file(../../../entities/monsters/goblins/goblin/goblin_desert/goblin_armor_vest_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/goblin/goblin_armor_leather.qb": "file(../../../entities/monsters/goblins/goblin/goblin_desert/goblin_armor_leather_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/outfits/boss_outfit/boss_outfit.qb": "file(../../../entities/monsters/goblins/outfits/boss_outfit/boss_outfit_desert/boss_outfit_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/outfits/miniboss_outfit/miniboss_outfit.qb": "file(../../../entities/monsters/goblins/outfits/miniboss_outfit/miniboss_outfit_desert/miniboss_outfit_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/outfits/thief_outfit/thief_outfit.qb": "file(../../../entities/monsters/goblins/outfits/thief_outfit/thief_outfit_desert/thief_outfit_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/outfits/maurauder_outfit/maurauder_outfit.qb": "file(../../../entities/monsters/goblins/outfits/maurauder_outfit/maurauder_outfit_desert/maurauder_outfit_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/outfits/footman_outfit/footman_outfit.qb": "file(../../../entities/monsters/goblins/outfits/footman_outfit/footman_outfit_desert/footman_outfit_desert.qb)",
+
+      "/stonehearth/entities/monsters/goblins/goblin/goblin.png": "file(../../../entities/monsters/goblins/goblin/goblin_desert/goblin_desert.png)",
+      "/stonehearth/data/gm/campaigns/goblin_war/arcs/trigger/raidcamp/encounters/shakedown/boss_portrait.png": "file(../../../data/gm/campaigns/goblin_war/arcs/trigger/raidcamp/encounters/shakedown/images_desert/boss_portrait_desert.png)",
+      "/stonehearth/data/gm/campaigns/goblin_war/arcs/climax/ogo_invasion/encounters/images/ogo_skullbonker.png": "file(../../../data/gm/campaigns/goblin_war/arcs/climax/ogo_invasion/encounters/images/images_desert/ogo_skullbonker_desert.png)",
+      "/stonehearth/data/gm/campaigns/goblin_war/arcs/climax/ogo_invasion/encounters/images/ogo_bannerman.png": "file(../../../data/gm/campaigns/goblin_war/arcs/climax/ogo_invasion/encounters/images/images_desert/ogo_bannerman_desert.png)",
+      "/stonehearth/data/gm/campaigns/goblin_war/arcs/climax/ogo_invasion/encounters/images/ogo_soothsayer.png": "file(../../../data/gm/campaigns/goblin_war/arcs/climax/ogo_invasion/encounters/images/images_desert/ogo_soothsayer_desert.png)",
+      "/stonehearth/data/gm/campaigns/goblin_war/arcs/climax/ogo_invasion/encounters/images/mountain.png": "file(../../../data/gm/campaigns/goblin_war/arcs/climax/ogo_invasion/encounters/images/images_desert/mountain_desert.png)",
+
+      "/stonehearth/entities/monsters/ogres/ogre/ogre.qb": "file(../../../entities/monsters/ogres/ogre/ogre_desert/ogre_desert.qb)",
+      "/stonehearth/entities/monsters/ogres/tank_outfit/tank_outfit.qb": "file(../../../entities/monsters/ogres/tank_outfit/tank_outfit_desert/tank_outfit_desert.qb)",
+      "/stonehearth/entities/monsters/ogres/ogre/ogre.png": "file(../../../entities/monsters/ogres/ogre/ogre_desert/ogre_desert.png)",
+
+      "/stonehearth/data/gm/campaigns/orc_war/arcs/trigger/old_khan/encounters/encounter_data/goblin_portrait.png": "file(../../../data/gm/campaigns/orc_war/arcs/trigger/old_khan/encounters/encounter_data/images_desert/goblin_portrait_desert.png)",
+      "/stonehearth/data/gm/campaigns/orc_war/arcs/trigger/old_khan/encounters/encounter_data/ogre_chief_portrait.png": "file(../../../data/gm/campaigns/orc_war/arcs/trigger/old_khan/encounters/encounter_data/images_desert/ogre_chief_portrait_desert.png)",
+      
+      "/stonehearth/entities/monsters/forest/wolf/wolf.qb": "file(../../../entities/monsters/forest/wolf/wolf_desert/wolf_desert.qb)",
+      "/stonehearth/entities/monsters/forest/wolf/wolf.png": "file(../../../entities/monsters/forest/wolf/wolf_desert/wolf_desert.png)",
+      "/stonehearth/entities/monsters/forest/wolf/armor/collar/wolf_collar.qb": "file(../../../entities/monsters/forest/wolf/armor/collar/wolf_collar_desert/wolf_collar_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/goblin_wolf/goblin_wolf.qb": "file(../../../entities/monsters/goblins/goblin_wolf/goblin_wolf_desert/goblin_wolf_desert.qb)",
+      "/stonehearth/entities/monsters/goblins/goblin_wolf/goblin_wolf.png": "file(../../../entities/monsters/goblins/goblin_wolf/goblin_wolf_desert/goblin_wolf_desert.png)",
+      "/stonehearth/entities/monsters/kobolds/kobold_wolf/kobold_wolf.qb": "file(../../../entities/monsters/kobolds/kobold_wolf/kobold_wolf_desert/kobold_wolf_desert.qb)",
+      "/stonehearth/entities/monsters/kobolds/kobold_wolf/kobold_wolf.png": "file(../../../entities/monsters/kobolds/kobold_wolf/kobold_wolf_desert/kobold_wolf_desert.png)"
+   }
+}
