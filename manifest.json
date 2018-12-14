@@ -6,8 +6,16 @@
 		"steam_file_id" : "1588527742"
 	},
 	"default_locale" : "en",
-	"aliases" : {},
-	"mixintos" : {},
+	"aliases" : {
+
+		"biome:amaryllis" : "file(data/biome/amaryllis.json)"
+
+	},
+	"mixintos" : {
+
+		"stonehearth:biome:index" : "file(data/biome/index.json)"
+
+	},
 	"overrides" : {},
 	"components" : {},
 	"controllers" : {}
