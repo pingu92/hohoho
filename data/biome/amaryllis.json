@@ -21,41 +21,10 @@
    "decay_multiplier": 0.75,
    "default_starting_season": "winter",
    "seasons": {
-      "spring": {
-         "display_name": "i18n(hohoho:data.biome.amaryllis.seasons.spring.display_name)",
-         "description": "i18n(hohoho:data.biome.amaryllis.seasons.spring.description)",
-         "start_day": 0,
-         "weather": [
-            {
-               "uri": "stonehearth:weather:sunny",
-               "weight": 2
-            },
-            {
-               "uri": "stonehearth:weather:cloudy",
-               "weight": 8
-            },
-            {
-               "uri": "stonehearth:weather:rain",
-               "weight": 4
-            },
-            {
-               "uri": "stonehearth:weather:rain:sunny",
-               "weight": 4
-            },
-            {
-               "uri": "stonehearth:weather:foggy",
-               "weight": 4
-            },
-            {
-               "uri": "stonehearth:weather:lucky",
-               "weight": 0.04
-            }
-         ]
-      },
       "summer": {
          "display_name": "i18n(hohoho:data.biome.amaryllis.seasons.summer.display_name)",
          "description": "i18n(hohoho:data.biome.amaryllis.seasons.summer.description)",
-         "start_day": 7,
+         "start_day": 0,
          "weather": [
             {
                "uri": "stonehearth:weather:sunny",
@@ -70,16 +39,8 @@
                "weight": 4
             },
             {
-               "uri": "stonehearth:weather:rain",
-               "weight": 2
-            },
-            {
-               "uri": "stonehearth:weather:rain:sunny",
-               "weight": 2
-            },
-            {
                "uri": "stonehearth:weather:snow",
-               "weight": 1
+               "weight": 2
             },
             {
                "uri": "stonehearth:weather:snow:sunny",
@@ -91,41 +52,10 @@
             }
          ]
       },
-      "autumn": {
-         "display_name": "i18n(hohoho:data.biome.amaryllis.seasons.autumn.display_name)",
-         "description": "i18n(hohoho:data.biome.amaryllis.seasons.autumn.description)",
-         "start_day": 28,
-         "weather": [
-            {
-               "uri": "stonehearth:weather:cloudy",
-               "weight": 5
-            },
-            {
-               "uri": "stonehearth:weather:snow",
-               "weight": 6
-            },
-            {
-               "uri": "stonehearth:weather:snow:sunny",
-               "weight": 4
-            },
-            {
-               "uri": "stonehearth:weather:foggy",
-               "weight": 2
-            },
-            {
-               "uri": "stonehearth:weather:blizzard",
-               "weight": 3
-            },
-            {
-               "uri": "stonehearth:weather:lucky",
-               "weight": 0.04
-            }
-         ]
-      },
       "winter": {
          "display_name": "i18n(hohoho:data.biome.amaryllis.seasons.winter.display_name)",
          "description": "i18n(hohoho:data.biome.amaryllis.seasons.winter.description)",
-         "start_day": 35,
+         "start_day": 28,
          "weather": [
             {
                "uri": "stonehearth:weather:sunny",

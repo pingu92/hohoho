@@ -11,17 +11,9 @@
 
 				"seasons": {
 
-					"spring": {
-						"display_name": "Spring",
-						"description": "Just relax and enjoy the icecold weather."
-					},
 					"summer": {
 						"display_name": "Summer",
-						"description": "New plans and Worklines are ready for the new year."
-					},
-					"autumn": {
-						"display_name": "Autumn",
-						"description": "Last preparations and busy crafting-lines."
+						"description": "Just relax and enjoy the icecold weather."
 					},
 					"winter": {
 						"display_name": "Winter",
